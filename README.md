@@ -15,15 +15,15 @@ kibana**
 
 **Logstash** Logstash là một công cụ xử lý dữ liệu được sử dụng để lấy dữ liệu từ nhiều nguồn khác nhau, áp dụng bộ lọc hoặc chuẩn hóa dữ liệu, sau đó gửi đến đích có thể là Kibana hoặc cổng lắng nghe. Tệp cấu hình logstash được chia thành ba phần:
 
-Input{}: là nơi người dùng xác định nguồn mà dữ liệu đang được thu thập. Logstash hỗ trợ nhiều plugin đầu vào như được hiển thị trong tài liệu tham khảo.
+1. Input{}: là nơi người dùng xác định nguồn mà dữ liệu đang được thu thập. Logstash hỗ trợ nhiều plugin đầu vào như được hiển thị trong tài liệu tham khảo.
 
 https://www.elastic.co/guide/en/logstash/8.1/input-plugins.html
 
-Filter{}: là nơi người dùng chỉ định các tùy chọn bộ lọc để chuẩn hóa nhật ký đã nhập ở trên. Logstash hỗ trợ nhiều plugin bộ lọc như được hiển thị trong tài liệu tham khảo.
+2. Filter{}: là nơi người dùng chỉ định các tùy chọn bộ lọc để chuẩn hóa nhật ký đã nhập ở trên. Logstash hỗ trợ nhiều plugin bộ lọc như được hiển thị trong tài liệu tham khảo.
 
 https://www.elastic.co/guide/en/logstash/8.1/filter-plugins.html
 
-Output{}: là nơi người dùng muốn dữ liệu đã lọc được gửi đi. Nó có thể là một cổng lắng nghe, Giao diện Kibana, cơ sở dữ liệu elasticsearch, một tệp, v.v. Logstash hỗ trợ nhiều plugin Output như được hiển thị trong tài liệu tham khảo.
+3. Output{}: là nơi người dùng muốn dữ liệu đã lọc được gửi đi. Nó có thể là một cổng lắng nghe, Giao diện Kibana, cơ sở dữ liệu elasticsearch, một tệp, v.v. Logstash hỗ trợ nhiều plugin Output như được hiển thị trong tài liệu tham khảo.
 
 https://www.elastic.co/guide/en/logstash/8.1/output-plugins.html
 
